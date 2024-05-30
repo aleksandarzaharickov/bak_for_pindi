@@ -1,6 +1,6 @@
 // Вместо нашего адреса вставь свой
 // Можно ещё не удалять адреса с localhost, но мы удалили для краткости
-const allowedCors = ["https://domen34434.nomoredomainswork.ru"];
+const allowedCors = ["http://domen34434.nomoredomainswork.ru"];
 
 function cors(req, res, next) {
   const { origin } = req.headers;
